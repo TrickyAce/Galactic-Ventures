@@ -1,0 +1,111 @@
+body{
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans", serif;
+}
+h1{
+  text-decoration: underline;
+}
+.hero{
+  background-image: url("https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2FsYXh5fGVufDB8fDB8fHww");
+  background-size: cover; /* Ensure it stretches across the section */
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #4361ee;
+  text-shadow: 0 0 5px #b100e8;
+  padding: 0 0 60px 0;
+  border-top: 1px solid;
+  line-height: 2.5;
+}
+.action-btn{
+  background: #dabfff;
+  color: #02010a;
+  padding: 5px 16px;
+  border: none;
+  border-radius: 13px;
+  font: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 30px;
+}
+.border-u{
+  border: solid 2px #7785ac;
+}
+.mission{
+  background-image: url("https://images.unsplash.com/photo-1706800696170-2c473bc3e363?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #b3e9c7;
+  border-top: 1px solid;
+  padding: 0 0 20px 0;
+}
+.mission-list{
+  display: flex;
+  justify-content: space-around;
+  text-shadow: 0 0 1px #02010a;
+}
+.tech-list{
+  display: flex;
+  justify-content: space-around;
+  text-shadow: 0 0 5px #709775;
+}
+.tech{
+  background-image: url("https://www.gwelectric.com/webfoo/wp-content/uploads/gw-electric-master-station.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #9ef01a;
+  border-top: 1px solid;
+  padding: 0 0 20px 0;
+}
+.action-btn:hover{
+  border: solid 3px #c2f8cb;
+  background-color: #7fdeff;
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0, 216, 255, 0.6);
+  color: #2d00f7;
+}
+a{
+  color: #e2a0ff;
+}
+a:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0, 216, 255, 0.6);
+  color: #16db65;
+}
+input{
+  border: 2px solid #8367c7;
+  border-radius: 8px;
+  padding: 6px;
+}
+.sub-btn{
+  background: #fface4;
+  color: #04471c;
+  padding: 5px 16px;
+  border: none;
+  border-radius: 13px;
+  font: inherit;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.sub-btn:hover{
+  border: solid 3px #c2f8cb;
+  background-color: #ab87ff;
+  color: #274029;
+}
+.footer {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  border-top: 1px solid;
+  padding: 5px 0 7px 0;
+  padding: 15px 20px; 
+  line-height: 1.6;
+}
+.mission-list, .tech-list {
+    flex-wrap: wrap; /* Enables wrapping for smaller screens */
+}
+.mission-list div, .tech-list div {
+    flex: 1 1 calc(33% - 20px); /* Ensures items adjust properly */
+    margin: 10px; /* Adds spacing around each item */
+}
